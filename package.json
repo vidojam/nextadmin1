@@ -14,7 +14,7 @@
     "node.js": "^0.0.1-security",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "4.11"
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
