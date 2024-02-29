@@ -8,9 +8,15 @@ const Navbar = () => {
    
   return (
     <div className={StyleSheet.container}>
-      <div className={styles.title}>{pathname}</div>
-    </div>
-  )
-}
+      <div className={styles.title}>{pathname.split("/").pop()}</div>
+      <div className={styles.menu} >
+        <div className={styles.search}>
+          <MdSearch/>
+          <input type="text" placeholder="Search..." />
+        </div>
+      </div> 
+      </div>
+  );
+};
 
 export default Navbar
