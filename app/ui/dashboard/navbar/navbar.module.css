@@ -1,3 +1,14 @@
 .container {
-  
+  padding: 20px;
+  border-radius: 10px;
+  background-color: vari(--bgSoft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title{
+  color: vari(--textSoft);
+  font-weight: bold;
+  text-transform: capitalize;
 }
