@@ -1,9 +1,8 @@
 import { usePathname } from 'next/navigation';
-import styles from './navbar.module.css'
-import {MdNotifications, MdOutlineChat, MdPublic, MdSearch } from "react-icons/md;"
+import styles from './navbar.module.css';
+import {MdNotifications, MdOutlineChat, MdPublic, MdSearch } from "react-icons/md";
 
 const Navbar = () => {
-
   const pathname=usePathname();
    
   return (

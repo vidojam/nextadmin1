@@ -12,3 +12,18 @@
   font-weight: bold;
   text-transform: capitalize;
 }
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+  background-color: #2E374A;
+
+}
