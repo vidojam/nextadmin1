@@ -120,4 +120,4 @@ const Sidebar = async () => {
   );
 };
 
-export default Sidebar
+export default Sidebar;
